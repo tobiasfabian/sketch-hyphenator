@@ -2,10 +2,15 @@
   "name": "sketch-hyphenator",
   "description": "Sketch Plugin: Add soft hyphens to text layers.",
   "homepage": "https://github.com/tobiasfabian/Sketch-Hyphenator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiasfabian/sketch-hyphenator"
+  },
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
   },
+
   "skpm": {
     "name": "Hyphenator",
     "manifest": "src/manifest.json",
