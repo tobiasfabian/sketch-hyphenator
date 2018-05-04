@@ -10,4 +10,4 @@ Your are only asked for the language (pattern) once per document. You can change
 
 Happy typesetting 🎉
 
-*This Plugin uses [Bram Stein](http://www.bramstein.com)’s [Hyper](https://github.com/bramstein/hypher)*
+*This Plugin uses [Bram Stein](http://www.bramstein.com)’s [Hypher](https://github.com/bramstein/hypher)*
