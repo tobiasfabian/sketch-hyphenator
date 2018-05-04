@@ -2,7 +2,6 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "description": "Add soft hyphens to your text layers.",
-  "icon": "icon.png",
   "commands": [
     {
       "name": "Add Hyphens",
@@ -10,7 +9,7 @@
       "description": "Add hyphens to selected layers.",
       "handler": "addHyphens",
       "identifier": "addHyphens",
-      "script": "./hyphenate.js"
+      "script": "hyphenate.js"
     },
     {
       "name": "Remove Hyphens",
@@ -18,14 +17,14 @@
       "description": "Remove hyphens from selected layers.",
       "handler": "removeHyphens",
       "identifier": "removeHyphens",
-      "script": "./hyphenate.js"
+      "script": "hyphenate.js"
     },
     {
       "name": "Change Language",
       "handler": "changeLanguage",
       "description": "Change hypenator language for this document.",
       "identifier": "changeLanguage",
-      "script": "./hyphenate.js"
+      "script": "hyphenate.js"
     }
   ],
   "menu": {
@@ -35,5 +34,12 @@
       "removeHyphens",
       "changeLanguage"
     ]
-  }
+  },
+  "version": "0.1.0",
+  "homepage": "https://github.com/tobiasfabian/Sketch-Hyphenator",
+  "name": "Hyphenator",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Tobias Wolf",
+  "authorEmail": "hello@tobiaswolf.me"
 }
