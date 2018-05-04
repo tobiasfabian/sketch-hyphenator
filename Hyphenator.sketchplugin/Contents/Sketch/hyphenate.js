@@ -96,7 +96,7 @@ var languageOptions = _languages2['default'].map(function (language) {
 });
 
 function choseLanguageDialog(context) {
-  var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'Language';
+  var title = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'Language Pattern';
 
   var selection = _sketch.UI.getSelectionFromUser(title, languageOptions);
   var value = languageOptions[selection[1]];
@@ -135,9 +135,9 @@ function addHyphens(context) {
   if (textLayers.length === 0) {
     _sketch.UI.message('Please chose text layers to add hyphens.');
   } else if (textLayers.length === 1) {
-    _sketch.UI.message('Hyphenated ' + String(textLayers.length) + ' layer (Chosen Language: ' + String(language.id) + ').');
+    _sketch.UI.message('Hyphenated ' + String(textLayers.length) + ' layer (Language Pattern: ' + String(language.id) + ').');
   } else {
-    _sketch.UI.message('Hyphenated ' + String(textLayers.length) + ' layers (Chosen Language: ' + String(language.id) + ').');
+    _sketch.UI.message('Hyphenated ' + String(textLayers.length) + ' layers (Language Pattern: ' + String(language.id) + ').');
   }
 }
 
@@ -157,7 +157,7 @@ function removeHyphens(context) {
 }
 
 function changeLanguage(context) {
-  choseLanguageDialog(context, 'Change Language');
+  choseLanguageDialog(context, 'Change Language Pattern');
 }
 
 /***/ }),

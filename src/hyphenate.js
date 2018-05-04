@@ -43,9 +43,9 @@ export function addHyphens(context) {
   if (textLayers.length === 0) {
     UI.message('Please chose text layers to add hyphens.');
   } else if (textLayers.length === 1) {
-    UI.message(`Hyphenated ${textLayers.length} layer (Chosen Language: ${language.id}).`);
+    UI.message(`Hyphenated ${textLayers.length} layer (Language Pattern: ${language.id}).`);
   } else {
-    UI.message(`Hyphenated ${textLayers.length} layers (Chosen Language: ${language.id}).`);
+    UI.message(`Hyphenated ${textLayers.length} layers (Language Pattern: ${language.id}).`);
   }
 }
 

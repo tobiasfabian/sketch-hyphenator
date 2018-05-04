@@ -2,6 +2,7 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "description": "Add soft hyphens to your text layers.",
+  "icon": "icon.png",
   "commands": [
     {
       "name": "Add Hyphens",
@@ -35,11 +36,11 @@
       "changeLanguage"
     ]
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/tobiasfabian/Sketch-Hyphenator",
   "name": "Hyphenator",
   "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "appcast": "https://raw.githubusercontent.com/tobiasfabian/sketch-hyphenator/master/.appcast.xml",
   "author": "Tobias Wolf",
   "authorEmail": "hello@tobiaswolf.me"
 }
